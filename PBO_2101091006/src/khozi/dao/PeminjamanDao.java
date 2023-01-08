@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package khozi.dao;
+package khozi.DAO;
 import khozi.model.Peminjaman;
 import java.util.List;
 

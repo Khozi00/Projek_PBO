@@ -5,8 +5,8 @@
  */
 package khozi.controller;
 
-import khozi.dao.PeminjamanDao;
-import khozi.dao.PeminjamanDaoImpl;
+import khozi.DAO.PeminjamanDao;
+import khozi.DAO.PeminjamanDaoImpl;
 import khozi.model.Peminjaman;
 import khozi.view.FormPeminjaman;
 import javax.swing.JOptionPane;

@@ -3,12 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package khozi.dao;
+package khozi.DAO;
 
 import khozi.model.Mahasiswa;
 import java.util.List;
 
-
+/**
+ *
+ * @author LENOVO
+ */
 public interface MahasiswaDao {
     Mahasiswa save(Mahasiswa mahasiswa);
     Mahasiswa update(int index, Mahasiswa mahasiswa);

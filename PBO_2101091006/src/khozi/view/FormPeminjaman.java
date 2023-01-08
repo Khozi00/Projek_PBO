@@ -69,11 +69,11 @@ public class FormPeminjaman extends javax.swing.JFrame {
 
         jLabel1.setText("Tanggal Kembali");
         getContentPane().add(jLabel1);
-        jLabel1.setBounds(40, 150, 120, 30);
+        jLabel1.setBounds(40, 150, 120, 20);
 
         jLabel2.setText("No BP");
         getContentPane().add(jLabel2);
-        jLabel2.setBounds(40, 30, 60, 30);
+        jLabel2.setBounds(40, 30, 43, 20);
 
         jLabel3.setText("Kode Buku");
         getContentPane().add(jLabel3);
@@ -81,23 +81,23 @@ public class FormPeminjaman extends javax.swing.JFrame {
 
         jLabel4.setText("Tanggal Pinjam");
         getContentPane().add(jLabel4);
-        jLabel4.setBounds(40, 110, 120, 30);
+        jLabel4.setBounds(40, 110, 120, 20);
 
         txtTanggalKembali.setText("jTextField1");
         getContentPane().add(txtTanggalKembali);
-        txtTanggalKembali.setBounds(190, 150, 390, 30);
+        txtTanggalKembali.setBounds(190, 150, 390, 26);
 
         txtNoBp.setText("jTextField1");
         getContentPane().add(txtNoBp);
-        txtNoBp.setBounds(190, 30, 390, 30);
+        txtNoBp.setBounds(190, 30, 390, 26);
 
         txtKodeBuku.setText("jTextField1");
         getContentPane().add(txtKodeBuku);
-        txtKodeBuku.setBounds(190, 70, 390, 30);
+        txtKodeBuku.setBounds(190, 70, 390, 26);
 
         txtTanggalPinjam.setText("jTextField1");
         getContentPane().add(txtTanggalPinjam);
-        txtTanggalPinjam.setBounds(190, 110, 390, 30);
+        txtTanggalPinjam.setBounds(190, 110, 390, 26);
 
         btnInsert.setText("Insert");
         btnInsert.addActionListener(new java.awt.event.ActionListener() {
@@ -106,7 +106,7 @@ public class FormPeminjaman extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btnInsert);
-        btnInsert.setBounds(50, 200, 100, 30);
+        btnInsert.setBounds(50, 200, 100, 29);
 
         btnUpdate.setText("Update");
         btnUpdate.addActionListener(new java.awt.event.ActionListener() {
@@ -115,7 +115,7 @@ public class FormPeminjaman extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btnUpdate);
-        btnUpdate.setBounds(210, 200, 100, 30);
+        btnUpdate.setBounds(210, 200, 100, 29);
 
         btnDelete.setText("Delete");
         btnDelete.addActionListener(new java.awt.event.ActionListener() {
@@ -124,7 +124,7 @@ public class FormPeminjaman extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btnDelete);
-        btnDelete.setBounds(370, 200, 100, 30);
+        btnDelete.setBounds(370, 200, 100, 29);
 
         btnCancel.setText("Cancel");
         btnCancel.addActionListener(new java.awt.event.ActionListener() {
@@ -133,7 +133,7 @@ public class FormPeminjaman extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btnCancel);
-        btnCancel.setBounds(530, 200, 100, 30);
+        btnCancel.setBounds(530, 200, 100, 29);
 
         tblPeminjaman.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {

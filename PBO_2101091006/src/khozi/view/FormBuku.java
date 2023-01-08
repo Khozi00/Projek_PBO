@@ -74,23 +74,23 @@ public class FormBuku extends javax.swing.JFrame {
 
         jLabel1.setText("Judul Buku");
         getContentPane().add(jLabel1);
-        jLabel1.setBounds(40, 90, 90, 20);
+        jLabel1.setBounds(40, 90, 78, 20);
 
         jLabel2.setText("Kode Buku");
         getContentPane().add(jLabel2);
-        jLabel2.setBounds(40, 50, 80, 20);
+        jLabel2.setBounds(40, 50, 75, 20);
 
         jLabel3.setText("Pengarang");
         getContentPane().add(jLabel3);
-        jLabel3.setBounds(40, 130, 80, 20);
+        jLabel3.setBounds(40, 130, 75, 20);
 
         jLabel4.setText("Tahun Terbit");
         getContentPane().add(jLabel4);
-        jLabel4.setBounds(40, 170, 90, 30);
+        jLabel4.setBounds(40, 170, 92, 20);
 
         txtJudulBuku.setText("jTextField1");
         getContentPane().add(txtJudulBuku);
-        txtJudulBuku.setBounds(150, 90, 340, 30);
+        txtJudulBuku.setBounds(190, 90, 300, 26);
 
         btnCancel.setText("Cancel");
         btnCancel.addActionListener(new java.awt.event.ActionListener() {
@@ -99,11 +99,11 @@ public class FormBuku extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btnCancel);
-        btnCancel.setBounds(390, 220, 70, 30);
+        btnCancel.setBounds(390, 220, 79, 29);
 
         txtTahunTerbit.setText("jTextField1");
         getContentPane().add(txtTahunTerbit);
-        txtTahunTerbit.setBounds(150, 170, 340, 30);
+        txtTahunTerbit.setBounds(190, 170, 300, 26);
 
         btnInsert.setText("Insert");
         btnInsert.addActionListener(new java.awt.event.ActionListener() {
@@ -112,7 +112,7 @@ public class FormBuku extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btnInsert);
-        btnInsert.setBounds(30, 220, 80, 30);
+        btnInsert.setBounds(30, 220, 73, 29);
 
         btnUpdate.setText("Update");
         btnUpdate.addActionListener(new java.awt.event.ActionListener() {
@@ -121,7 +121,7 @@ public class FormBuku extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btnUpdate);
-        btnUpdate.setBounds(150, 220, 80, 30);
+        btnUpdate.setBounds(150, 220, 83, 29);
 
         btnDelete.setText("Delete");
         btnDelete.addActionListener(new java.awt.event.ActionListener() {
@@ -130,7 +130,7 @@ public class FormBuku extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btnDelete);
-        btnDelete.setBounds(270, 220, 70, 30);
+        btnDelete.setBounds(270, 220, 77, 29);
 
         tblBuku.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -168,7 +168,7 @@ public class FormBuku extends javax.swing.JFrame {
             }
         });
         getContentPane().add(txtPengarang);
-        txtPengarang.setBounds(150, 130, 340, 30);
+        txtPengarang.setBounds(190, 130, 300, 26);
 
         txtKodeBuku.setText("jTextField1");
         txtKodeBuku.addActionListener(new java.awt.event.ActionListener() {
@@ -177,7 +177,7 @@ public class FormBuku extends javax.swing.JFrame {
             }
         });
         getContentPane().add(txtKodeBuku);
-        txtKodeBuku.setBounds(150, 50, 340, 30);
+        txtKodeBuku.setBounds(190, 50, 300, 26);
 
         setSize(new java.awt.Dimension(542, 579));
         setLocationRelativeTo(null);

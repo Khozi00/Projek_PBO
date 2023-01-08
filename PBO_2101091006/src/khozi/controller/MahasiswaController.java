@@ -5,17 +5,13 @@
  */
 package khozi.controller;
 
-import khozi.dao.MahasiswaDao;
-import khozi.dao.MahasiswaDaoImpl;
+import khozi.DAO.MahasiswaDao;
+import khozi.DAO.MahasiswaDaoImpl;
 import khozi.model.Mahasiswa;
 import khozi.view.FormMahasiswa;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 
-/**
- *
- * @author LENOVO
- */
 public class MahasiswaController {
     private FormMahasiswa formMahasiswa;
     private MahasiswaDao mahasiswaDao;
@@ -56,9 +52,5 @@ public class MahasiswaController {
         mahasiswa.setJenkel(formMahasiswa.getTxtJenkel().getText());
         mahasiswaDao.save(mahasiswa);
         JOptionPane.showMessageDialog(formMahasiswa, "Entri Data Ok!");
-    }
-
-    public void getMahasiswa() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 }

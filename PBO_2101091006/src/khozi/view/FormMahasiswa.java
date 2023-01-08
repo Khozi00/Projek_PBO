@@ -69,23 +69,23 @@ public class FormMahasiswa extends javax.swing.JFrame {
 
         jLabel1.setText("Nama");
         getContentPane().add(jLabel1);
-        jLabel1.setBounds(40, 70, 27, 14);
+        jLabel1.setBounds(40, 70, 41, 20);
 
         jLabel2.setText("Alamat");
         getContentPane().add(jLabel2);
-        jLabel2.setBounds(40, 110, 33, 14);
+        jLabel2.setBounds(40, 110, 50, 20);
 
         jLabel3.setText("Jenis Kelamin");
         getContentPane().add(jLabel3);
-        jLabel3.setBounds(40, 150, 120, 14);
+        jLabel3.setBounds(40, 150, 120, 20);
 
         jLabel4.setText("NOBP");
         getContentPane().add(jLabel4);
-        jLabel4.setBounds(40, 30, 27, 14);
+        jLabel4.setBounds(40, 30, 41, 20);
 
         txtAlamat.setText("jTextField1");
         getContentPane().add(txtAlamat);
-        txtAlamat.setBounds(180, 110, 260, 20);
+        txtAlamat.setBounds(180, 110, 260, 26);
 
         txtNobp.setText("jTextField1");
         txtNobp.addActionListener(new java.awt.event.ActionListener() {
@@ -94,15 +94,15 @@ public class FormMahasiswa extends javax.swing.JFrame {
             }
         });
         getContentPane().add(txtNobp);
-        txtNobp.setBounds(180, 30, 260, 20);
+        txtNobp.setBounds(180, 30, 260, 26);
 
         txtNama.setText("jTextField1");
         getContentPane().add(txtNama);
-        txtNama.setBounds(180, 70, 260, 20);
+        txtNama.setBounds(180, 70, 260, 26);
 
         btnCancel.setText("Cancel");
         getContentPane().add(btnCancel);
-        btnCancel.setBounds(370, 210, 90, 23);
+        btnCancel.setBounds(370, 210, 90, 29);
 
         btnInsert.setText("Insert");
         btnInsert.addActionListener(new java.awt.event.ActionListener() {
@@ -111,15 +111,15 @@ public class FormMahasiswa extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btnInsert);
-        btnInsert.setBounds(40, 210, 90, 23);
+        btnInsert.setBounds(40, 210, 90, 29);
 
         btnUpdate.setText("Update");
         getContentPane().add(btnUpdate);
-        btnUpdate.setBounds(150, 210, 90, 23);
+        btnUpdate.setBounds(150, 210, 90, 29);
 
         btnDelete.setText("Delete");
         getContentPane().add(btnDelete);
-        btnDelete.setBounds(260, 210, 90, 23);
+        btnDelete.setBounds(260, 210, 90, 29);
 
         tblMahasiswa.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -140,19 +140,7 @@ public class FormMahasiswa extends javax.swing.JFrame {
                 return canEdit [columnIndex];
             }
         });
-        
-        tblMahasiswa.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                tblMahasiswaMouseClicked(evt);
-            }
-        });
-
         tblMahasiswa.getTableHeader().setReorderingAllowed(false);
-        tblMahasiswa.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                tblMahasiswaMouseClicked(evt);
-            }
-        });
         jScrollPane1.setViewportView(tblMahasiswa);
 
         getContentPane().add(jScrollPane1);
@@ -160,7 +148,7 @@ public class FormMahasiswa extends javax.swing.JFrame {
 
         txtJenkel.setText("jTextField1");
         getContentPane().add(txtJenkel);
-        txtJenkel.setBounds(180, 150, 260, 20);
+        txtJenkel.setBounds(180, 150, 260, 26);
 
         setBounds(0, 0, 505, 589);
     }// </editor-fold>//GEN-END:initComponents
@@ -175,10 +163,6 @@ public class FormMahasiswa extends javax.swing.JFrame {
         controller.tampilData();
         controller.bersihForm();
     }//GEN-LAST:event_btnInsertActionPerformed
-
-    private void tblMahasiswaMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_tblMahasiswaMouseClicked
-        controller.getMahasiswa();
-    }//GEN-LAST:event_tblMahasiswaMouseClicked
 
     /**
      * @param args the command line arguments

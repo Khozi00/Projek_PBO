@@ -5,8 +5,8 @@
  */
 package khozi.controller;
 
-import khozi.dao.BukuDao;
-import khozi.dao.BukuDaoImpl;
+import khozi.DAO.BukuDao;
+import khozi.DAO.BukuDaoImpl;
 import khozi.model.Buku;
 import khozi.view.FormBuku;
 import javax.swing.JOptionPane;

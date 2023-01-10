@@ -3,12 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Zakki021222;
+package khozi021222022;
 
-/**
- *
- * @author LENOVO
- */
+
 public class ContohStatic {
     public int tambah (int x, int y){
         return (x+y);

@@ -3,19 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Zakki021222;
+package khozi021222022;
 
-/**
- *
- * @author LENOVO
- */
 public class ContohArgument {
     public static void main(String[] args) {
         try{
         System.out.println("Argumen ke-0 adalah "+ args[0]);
         }
         catch(Exception ex){
-            System.out.println("Error Index ke " + ex.getMessage() + "tidak ada");
+            System.out.println("Error Index ke " + ex.getMessage() + " tidak ada");
         }
     }
 }
